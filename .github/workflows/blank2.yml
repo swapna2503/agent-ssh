@@ -32,8 +32,8 @@ jobs:
           echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
           ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOSTNAME} '
           
-          mkdir agent5 &&
-          fab --version >> cat5.txt'
+          mkdir agent52 &&
+          fab --version >> cat52.txt'
           
           
           
